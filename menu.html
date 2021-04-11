@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <title>SDK Coda - PlayOS</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/c.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/c.css">
+    <script src="js/b.js"></script>
+    <link rel="stylesheet" type="test/css" href="css/b.css">
+</head>
+
+<body>
+    <header>
+        <div id="plus"></div>
+        <div id="info"></div>
+        <div id="textInfo">Menu des Jeux,
+            <div class="s" onClick="rev()">Revenir au Menu Principal</div>
+        </div>
+        <div id="clock"></div>
+    </header>
+
+
+    <div id="games">
+        <div class="squareGame animated bounceInLeft" onclick="pong()">
+            <div class="imgGame ps"></div>
+            <div class="gameText">Pong !</div>
+        </div>
+        <div class="squareGame animated bounceInLeft" onclick="tictactoe()">
+            <div class="imgGame new"></div>
+            <div class="gameText ascii">Tic Tac Toe</div>
+        </div>
+        <div class="squareGame animated bounceInLeft" onclick="cat()">
+            <div class="imgGame overwatch"></div>
+            <div class="gameText">RUN CAT !</div>
+        </div>
+    </div>
+    </div>
+
+    <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+    </div>
+</body>
