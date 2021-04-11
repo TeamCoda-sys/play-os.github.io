@@ -1,2 +1,2 @@
-# play-os.github.io
-PlayOS
+# PlayOS
+PlayOS is a Game Loader in HTML
